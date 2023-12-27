@@ -24,7 +24,7 @@ pipeline {
         
         
 
-	stage('SonarQube analysis') {
+	stage('sonarqube analysis') {
             steps {
 		// Change this as per your Jenkins Configuration
                 withSonarQubeEnv('sonarqube') {
