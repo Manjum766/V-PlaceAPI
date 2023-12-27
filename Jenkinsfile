@@ -15,12 +15,12 @@ pipeline {
             }
         }
         
-        stage('JUNit Reports') {
+       /* stage('JUNit Reports') {
             steps {
                     junit 'target/surefire-reports/*.xml'
 		                echo "Publishing JUnit reports"
             }
-        }
+        } */
         
         
 
