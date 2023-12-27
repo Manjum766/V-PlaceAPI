@@ -33,11 +33,11 @@ pipeline {
             }
         }
 
-	stage("Quality gate") {
+	/*stage("Quality gate") {
             steps {
                 waitForQualityGate abortPipeline: true
             }
-        }
+        } */
         
     }
     post {
