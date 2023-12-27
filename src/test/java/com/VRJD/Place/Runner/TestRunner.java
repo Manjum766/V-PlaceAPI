@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 		glue = { "com.VRJD.Place.StepDefinitions" }, 
 		stepNotifications = true, 
 		publish = true, 
-		plugin = { "pretty", "html:test-output/HTMLReport.html", "json:test-output/JSONReport.json",
+		plugin = { "pretty", "html:test-output/HTMLReport.html", "json:target/cucumber/cucumber.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", },
 		tags = "@Regression", dryRun = false, monochrome = true)
 
